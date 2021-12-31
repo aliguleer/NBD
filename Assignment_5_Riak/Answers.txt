@@ -1,0 +1,34 @@
+1)
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "city": "istanbul", "country": "Turkey","population":15000000, "isCapital": false}' http://localhost:8098/buckets/s22548/keys/istanbul
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "city": "warsaw","country": "Poland", "population": 1750000,"isCapital": true}' http://localhost:8098/buckets/s22548/keys/warsaw
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "city": "london","country": "England", "population": 9000000,"isCapital": true}' http://localhost:8098/buckets/s22548/keys/london
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "city": "newyork", "country": "Usa","population": 10000000,"isCapital": false}' http://localhost:8098/buckets/s22548/keys/newyork
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "city": "bolu", "country": "Turkey","population": 250000,"isCapital":false}' http://localhost:8098/buckets/s22548/keys/bolu
+
+2)
+curl -i -XGET  http://localhost:8098/buckets/s22548/keys/bolu
+
+3)
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "city": "istanbul", "country": "Turkey","population":16000000, "isCapital": false,"region":"marmara"}' http://localhost:8098/buckets/s22548/keys/istanbul
+
+4)
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "city": "bolu", "country": "Turkey","population": 250000}' http://localhost:8098/buckets/s22548/keys/bolu
+
+5)
+curl -i -XPUT -H "Content-Type: application/json" -d '{ "city": "newyork", "country": "Usa","population": 5000,"isCapital": false}' http://localhost:8098/buckets/s22548/keys/newyork
+
+6)
+curl -i -XDELETE http://localhost:8098/buckets/s22548/keys/bolu
+
+7)
+curl -i -XGET  http://localhost:8098/buckets/s22548/keys/paris
+
+8)
+curl -i -XPOST -H "Content-Type: application/json" -d '{"city": "paris"}' http://localhost:8098/buckets/s22548/keys
+
+9)
+curl -i -XGET  http://localhost:8098/buckets/s22548/keys/RcWXv8t7ZX34TmWnTtNX2IJXVY
+
+10)
+curl -i -XDELETE http://localhost:8098/buckets/s22548/keys/RcWXv8t7ZX34TmWnTtNX2IJXVY
+

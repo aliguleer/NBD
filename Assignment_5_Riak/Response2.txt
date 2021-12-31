@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVl4TrloCZDNlMCUy5rEyeJdY3ebLAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s22548>; rel="up"
+Last-Modified: Fri, 24 Dec 2021 16:41:47 GMT
+ETag: "4D06FXHf46reQ2PjxBr7jM"
+Date: Fri, 24 Dec 2021 16:51:16 GMT
+Content-Type: application/json
+Content-Length: 84
+
+{ "city": "istanbul", "country": "Turkey","population":15000000, "isCapital": false}alig@DESKTOP-5O12UV1:~$

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVl6TUJoGZDNlMCUy5rEy5Fdb3ebLAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s22548>; rel="up"
+Last-Modified: Fri, 24 Dec 2021 17:12:15 GMT
+ETag: "1cXHWqk04N1EwTMRmrtd70"
+Date: Fri, 24 Dec 2021 17:13:08 GMT
+Content-Type: application/json
+Content-Length: 17
+
+{"city": "paris"}
