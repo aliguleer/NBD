@@ -1,0 +1,6 @@
+{location: {namespace: {type: default, bucket: s22548}, key: 1}, values: []}
+{"Name":"nalan","Country":"Turkey","Age":18,"isStudent":true}
+{location: {namespace: {type: default, bucket: s22548}, key: 1}, values: []}
+{"Name":"nalan","Country":"Poland","Age":18,"isStudent":true}
+{namespace: {type: default, bucket: s22548}, key: 1} deleted
+null
