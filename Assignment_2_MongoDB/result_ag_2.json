@@ -1,0 +1,129 @@
+Current Mongosh Log ID:	617fef52c58eac9f33012f30
+Connecting to:		mongodb://localhost:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000
+Using MongoDB:		5.0.3
+Using Mongosh:		1.1.0
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+------
+   The server generated these startup warnings when booting:
+   2021-10-31T21:15:02.612+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+Loading file: D:/Dersler/NBD/HomeWorks/HW2/query_ag_2.js;
+Current Mongosh Log ID:	617fef697f2633e30a467bfa
+Connecting to:		mongodb://localhost:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000
+Using MongoDB:		5.0.3
+Using Mongosh:		1.1.0
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+------
+   The server generated these startup warnings when booting:
+   2021-10-31T21:15:02.612+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+Loading file: D:/Dersler/NBD/HomeWorks/HW2/query_ag_2.js
+[
+  { _id: 'DOP', sum: Decimal128("538809.21") },
+  { _id: 'ANG', sum: Decimal128("21354.39") },
+  { _id: 'SGD', sum: Decimal128("12820.48") },
+  { _id: 'KMF', sum: Decimal128("138004.70") },
+  { _id: 'TWD', sum: Decimal128("37654.00") },
+  { _id: 'MOP', sum: Decimal128("5337.77") },
+  { _id: 'SBD', sum: Decimal128("9983.00") },
+  { _id: 'CLP', sum: Decimal128("403957.97") },
+  { _id: 'LKR', sum: Decimal128("225111.39") },
+  { _id: 'BHD', sum: Decimal128("22698.46") },
+  { _id: 'MUR', sum: Decimal128("182130.48") },
+  { _id: 'BZD', sum: Decimal128("27742.45") },
+  { _id: 'ZAR', sum: Decimal128("947722.84") },
+  { _id: 'ALL', sum: Decimal128("655866.63") },
+  { _id: 'PYG', sum: Decimal128("291487.63") },
+  { _id: 'RUB', sum: Decimal128("8648162.27") },
+  { _id: 'SYP', sum: Decimal128("511625.27") },
+  { _id: 'CHF', sum: Decimal128("108940.64") },
+  { _id: 'AZN', sum: Decimal128("403856.73") },
+  { _id: 'BSD', sum: Decimal128("55361.39") },
+  { _id: 'JOD', sum: Decimal128("214942.07") },
+  { _id: 'MAD', sum: Decimal128("516264.06") },
+  { _id: 'OMR', sum: Decimal128("87008.08") },
+  { _id: 'IDR', sum: Decimal128("15803638.67") },
+  { _id: 'HTG', sum: Decimal128("215992.13") },
+  { _id: 'BMD', sum: Decimal128("5189.0") },
+  { _id: 'NOK', sum: Decimal128("776758.60") },
+  { _id: 'BND', sum: Decimal128("7782.66") },
+  { _id: 'AED', sum: Decimal128("52973.33") },
+  { _id: 'MYR', sum: Decimal128("671978.45") },
+  { _id: 'EGP', sum: Decimal128("538164.28") },
+  { _id: 'AFN', sum: Decimal128("677925.57") },
+  { _id: 'TZS', sum: Decimal128("617053.52") },
+  { _id: 'MZN', sum: Decimal128("92068.64") },
+  { _id: 'JMD', sum: Decimal128("201447.71") },
+  { _id: 'XCD', sum: Decimal128("168150.01") },
+  { _id: 'NPR', sum: Decimal128("146606.65") },
+  { _id: 'LTL', sum: Decimal128("230882.59") },
+  { _id: 'NIO', sum: Decimal128("263374.09") },
+  { _id: 'LSL', sum: Decimal128("26269.07") },
+  { _id: 'ZWL', sum: Decimal128("147943.58") },
+  { _id: 'KZT', sum: Decimal128("601904.37") },
+  { _id: 'CNY', sum: Decimal128("27776263.33") },
+  { _id: 'MMK', sum: Decimal128("226778.17") },
+  { _id: 'KPW', sum: Decimal128("227902.01") },
+  { _id: 'BTN', sum: Decimal128("37711.08") },
+  { _id: 'SEK', sum: Decimal128("3738579.57") },
+  { _id: 'MDL', sum: Decimal128("173318.73") },
+  { _id: 'HKD', sum: Decimal128("23023.02") },
+  { _id: 'FKP', sum: Decimal128("5118.97") },
+  { _id: 'RWF', sum: Decimal128("43299.96") },
+  { _id: 'NAD', sum: Decimal128("55420.34") },
+  { _id: 'IRR', sum: Decimal128("804397.05") },
+  { _id: 'TOP', sum: Decimal128("18424.47") },
+  { _id: 'RON', sum: Decimal128("11557.60") },
+  { _id: 'AWG', sum: Decimal128("7282.73") },
+  { _id: 'TMT', sum: Decimal128("113099.62") },
+  { _id: 'MNT', sum: Decimal128("644907.42") },
+  { _id: 'BAM', sum: Decimal128("415965.47") },
+  { _id: 'DJF', sum: Decimal128("14734.27") },
+  { _id: 'HNL', sum: Decimal128("817695.24") },
+  { _id: 'BYR', sum: Decimal128("693053.85") },
+  { _id: 'UYU', sum: Decimal128("237715.67") },
+  { _id: 'MRO', sum: Decimal128("54117.17") },
+  { _id: 'SSP', sum: Decimal128("42256.53") },
+  { _id: 'VEF', sum: Decimal128("638306.07") },
+  { _id: 'BBD', sum: Decimal128("26720.50") },
+  { _id: 'GEL', sum: Decimal128("157276.96") },
+  { _id: 'GYD', sum: Decimal128("13053.50") },
+  { _id: 'FJD', sum: Decimal128("9321.43") },
+  { _id: 'LRD', sum: Decimal128("54883.45") },
+  { _id: 'GBP', sum: Decimal128("243512.86") },
+  { _id: 'ERN', sum: Decimal128("21598.47") },
+  { _id: 'BDT', sum: Decimal128("294843.38") },
+  { _id: 'LAK', sum: Decimal128("86305.05") },
+  { _id: 'UAH', sum: Decimal128("2531920.90") },
+  { _id: 'AOA', sum: Decimal128("67582.80") },
+  { _id: 'GHS', sum: Decimal128("83159.05") },
+  { _id: 'CUP', sum: Decimal128("517904.09") },
+  { _id: 'XOF', sum: Decimal128("944111.30") },
+  { _id: 'MGA', sum: Decimal128("382347.12") },
+  { _id: 'YER', sum: Decimal128("583657.38") },
+  { _id: 'QAR', sum: Decimal128("36358.92") },
+  { _id: 'MVR', sum: Decimal128("32068.85") },
+  { _id: 'HUF', sum: Decimal128("165192.16") },
+  { _id: 'KYD', sum: Decimal128("16809.66") },
+  { _id: 'KHR', sum: Decimal128("100447.58") },
+  { _id: 'SAR', sum: Decimal128("161706.00") },
+  { _id: 'SDG', sum: Decimal128("134649.56") },
+  { _id: 'SRD', sum: Decimal128("19686.77") },
+  { _id: 'IQD', sum: Decimal128("167531.82") },
+  { _id: 'DKK', sum: Decimal128("225770.32") },
+  { _id: 'GNF', sum: Decimal128("73222.48") },
+  { _id: 'XPF', sum: Decimal128("132926.01") },
+  { _id: 'TJS', sum: Decimal128("177401.05") },
+  { _id: 'SOS', sum: Decimal128("82203.48") },
+  { _id: 'ARS', sum: Decimal128("1967570.17") },
+  { _id: 'DZD', sum: Decimal128("12166.20") },
+  { _id: 'WST', sum: Decimal128("30739.64") },
+  { _id: 'NGN', sum: Decimal128("1301224.95") },
+  ... 54 more items
+]

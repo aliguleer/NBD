@@ -1,0 +1,25 @@
+Current Mongosh Log ID:	617feca401a13c912b6b8d9b
+Connecting to:		mongodb://localhost:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000
+Using MongoDB:		5.0.3
+Using Mongosh:		1.1.0
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+------
+   The server generated these startup warnings when booting:
+   2021-10-31T21:15:02.612+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+Loading file: D:/Dersler/NBD/HomeWorks/HW2/query_ag_1.js
+[
+  {
+    _id: 'Female',
+    'Average Height': Decimal128("167.1261749949829420028095524784267"),
+    'Average Weight': Decimal128("70.11384105960264900662251655629139")
+  },
+  {
+    _id: 'Male',
+    'Average Height': Decimal128("167.0800817221447079928243970500299"),
+    'Average Weight': Decimal128("70.00180785329878413394458839944190")
+  }
+]

@@ -1,0 +1,364 @@
+Current Mongosh Log ID:	61801fdfecef27b8e4f83e8d
+Connecting to:		mongodb://localhost:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000
+Using MongoDB:		5.0.3
+Using Mongosh:		1.1.0
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+------
+   The server generated these startup warnings when booting:
+   2021-10-31T21:15:02.612+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+Loading file: D:/Dersler/NBD/HomeWorks/HW2/query_ag_5.js
+[
+  {
+    _id: 'BRL',
+    sum: Decimal128("49632.02"),
+    Avg: Decimal128("4512.001818181818181818181818181818")
+  },
+  {
+    _id: 'MKD',
+    sum: Decimal128("3835.05"),
+    Avg: Decimal128("3835.05")
+  },
+  {
+    _id: 'NZD',
+    sum: Decimal128("5328.46"),
+    Avg: Decimal128("5328.46")
+  },
+  {
+    _id: 'ISK',
+    sum: Decimal128("4316.41"),
+    Avg: Decimal128("4316.41")
+  },
+  { _id: 'BOB', sum: Decimal128("5263.3"), Avg: Decimal128("5263.3") },
+  {
+    _id: 'HRK',
+    sum: Decimal128("24354.82"),
+    Avg: Decimal128("4870.964")
+  },
+  {
+    _id: 'MNT',
+    sum: Decimal128("21715.61"),
+    Avg: Decimal128("5428.9025")
+  },
+  {
+    _id: 'KRW',
+    sum: Decimal128("13379.82"),
+    Avg: Decimal128("6689.91")
+  },
+  {
+    _id: 'ZMW',
+    sum: Decimal128("5569.56"),
+    Avg: Decimal128("5569.56")
+  },
+  {
+    _id: 'RWF',
+    sum: Decimal128("4632.88"),
+    Avg: Decimal128("4632.88")
+  },
+  {
+    _id: 'IRR',
+    sum: Decimal128("26504.24"),
+    Avg: Decimal128("4417.373333333333333333333333333333")
+  },
+  {
+    _id: 'UZS',
+    sum: Decimal128("3573.03"),
+    Avg: Decimal128("3573.03")
+  },
+  {
+    _id: 'KZT',
+    sum: Decimal128("3788.95"),
+    Avg: Decimal128("3788.95")
+  },
+  {
+    _id: 'CNY',
+    sum: Decimal128("470700.38"),
+    Avg: Decimal128("4954.740842105263157894736842105263")
+  },
+  {
+    _id: 'VND',
+    sum: Decimal128("36160.26"),
+    Avg: Decimal128("4520.0325")
+  },
+  {
+    _id: 'MMK',
+    sum: Decimal128("4629.42"),
+    Avg: Decimal128("4629.42")
+  },
+  {
+    _id: 'MWK',
+    sum: Decimal128("3574.42"),
+    Avg: Decimal128("3574.42")
+  },
+  {
+    _id: 'SEK',
+    sum: Decimal128("70840.19"),
+    Avg: Decimal128("5060.013571428571428571428571428571")
+  },
+  {
+    _id: 'NIO',
+    sum: Decimal128("9971.28"),
+    Avg: Decimal128("4985.64")
+  },
+  {
+    _id: 'NPR',
+    sum: Decimal128("5792.26"),
+    Avg: Decimal128("5792.26")
+  },
+  {
+    _id: 'JPY',
+    sum: Decimal128("60944.74"),
+    Avg: Decimal128("5078.728333333333333333333333333333")
+  },
+  {
+    _id: 'PKR',
+    sum: Decimal128("18938.00"),
+    Avg: Decimal128("4734.50")
+  },
+  {
+    _id: 'ZWL',
+    sum: Decimal128("5792.17"),
+    Avg: Decimal128("5792.17")
+  },
+  {
+    _id: 'GBP',
+    sum: Decimal128("6149.19"),
+    Avg: Decimal128("6149.19")
+  },
+  {
+    _id: 'XAF',
+    sum: Decimal128("14094.66"),
+    Avg: Decimal128("4698.22")
+  },
+  {
+    _id: 'ILS',
+    sum: Decimal128("16295.49"),
+    Avg: Decimal128("5431.83")
+  },
+  { _id: 'GTQ', sum: Decimal128("5806.3"), Avg: Decimal128("5806.3") },
+  {
+    _id: 'DOP',
+    sum: Decimal128("20674.74"),
+    Avg: Decimal128("5168.685")
+  },
+  {
+    _id: 'PHP',
+    sum: Decimal128("118606.28"),
+    Avg: Decimal128("4941.928333333333333333333333333333")
+  },
+  {
+    _id: 'THB',
+    sum: Decimal128("23021.96"),
+    Avg: Decimal128("4604.392")
+  },
+  {
+    _id: 'CAD',
+    sum: Decimal128("58375.60"),
+    Avg: Decimal128("5306.872727272727272727272727272727")
+  },
+  {
+    _id: 'USD',
+    sum: Decimal128("80650.70"),
+    Avg: Decimal128("5040.66875")
+  },
+  {
+    _id: 'VEF',
+    sum: Decimal128("8333.28"),
+    Avg: Decimal128("4166.64")
+  },
+  {
+    _id: 'LYD',
+    sum: Decimal128("8764.99"),
+    Avg: Decimal128("4382.495")
+  },
+  {
+    _id: 'MXN',
+    sum: Decimal128("50229.00"),
+    Avg: Decimal128("5022.90")
+  },
+  {
+    _id: 'HNL',
+    sum: Decimal128("16514.59"),
+    Avg: Decimal128("5504.863333333333333333333333333333")
+  },
+  {
+    _id: 'PEN',
+    sum: Decimal128("23227.35"),
+    Avg: Decimal128("4645.47")
+  },
+  {
+    _id: 'BYR',
+    sum: Decimal128("5095.79"),
+    Avg: Decimal128("5095.79")
+  },
+  {
+    _id: 'ALL',
+    sum: Decimal128("3325.48"),
+    Avg: Decimal128("3325.48")
+  },
+  {
+    _id: 'XPF',
+    sum: Decimal128("4759.07"),
+    Avg: Decimal128("4759.07")
+  },
+  {
+    _id: 'TJS',
+    sum: Decimal128("4087.71"),
+    Avg: Decimal128("4087.71")
+  },
+  {
+    _id: 'RUB',
+    sum: Decimal128("119749.15"),
+    Avg: Decimal128("4989.547916666666666666666666666667")
+  },
+  {
+    _id: 'ARS',
+    sum: Decimal128("23242.00"),
+    Avg: Decimal128("4648.40")
+  },
+  {
+    _id: 'PYG',
+    sum: Decimal128("4874.69"),
+    Avg: Decimal128("4874.69")
+  },
+  {
+    _id: 'ZAR',
+    sum: Decimal128("11790.92"),
+    Avg: Decimal128("3930.306666666666666666666666666667")
+  },
+  {
+    _id: 'IQD',
+    sum: Decimal128("4269.39"),
+    Avg: Decimal128("4269.39")
+  },
+  {
+    _id: 'MGA',
+    sum: Decimal128("14560.99"),
+    Avg: Decimal128("4853.663333333333333333333333333333")
+  },
+  {
+    _id: 'CUP',
+    sum: Decimal128("15017.34"),
+    Avg: Decimal128("5005.78")
+  },
+  {
+    _id: 'XOF',
+    sum: Decimal128("17882.05"),
+    Avg: Decimal128("5960.683333333333333333333333333333")
+  },
+  {
+    _id: 'YER',
+    sum: Decimal128("13712.50"),
+    Avg: Decimal128("4570.833333333333333333333333333333")
+  },
+  {
+    _id: 'CLP',
+    sum: Decimal128("21008.95"),
+    Avg: Decimal128("5252.2375")
+  },
+  {
+    _id: 'SRD',
+    sum: Decimal128("5286.68"),
+    Avg: Decimal128("5286.68")
+  },
+  {
+    _id: 'KYD',
+    sum: Decimal128("3760.89"),
+    Avg: Decimal128("3760.89")
+  },
+  {
+    _id: 'UAH',
+    sum: Decimal128("40471.84"),
+    Avg: Decimal128("5058.98")
+  },
+  {
+    _id: 'EUR',
+    sum: Decimal128("245091.47"),
+    Avg: Decimal128("4901.8294")
+  },
+  {
+    _id: 'BWP',
+    sum: Decimal128("4076.29"),
+    Avg: Decimal128("4076.29")
+  },
+  {
+    _id: 'BGN',
+    sum: Decimal128("21200.88"),
+    Avg: Decimal128("5300.22")
+  },
+  { _id: 'CDF', sum: Decimal128("12228.8"), Avg: Decimal128("6114.4") },
+  {
+    _id: 'ETB',
+    sum: Decimal128("5436.11"),
+    Avg: Decimal128("5436.11")
+  },
+  { _id: 'EGP', sum: Decimal128("5579.3"), Avg: Decimal128("5579.3") },
+  {
+    _id: 'NOK',
+    sum: Decimal128("4773.66"),
+    Avg: Decimal128("4773.66")
+  },
+  {
+    _id: 'RSD',
+    sum: Decimal128("4276.56"),
+    Avg: Decimal128("4276.56")
+  },
+  {
+    _id: 'AMD',
+    sum: Decimal128("24609.33"),
+    Avg: Decimal128("4921.866")
+  },
+  {
+    _id: 'AFN',
+    sum: Decimal128("16755.49"),
+    Avg: Decimal128("5585.163333333333333333333333333333")
+  },
+  {
+    _id: 'TZS',
+    sum: Decimal128("7052.37"),
+    Avg: Decimal128("3526.185")
+  },
+  {
+    _id: 'VUV',
+    sum: Decimal128("6418.27"),
+    Avg: Decimal128("6418.27")
+  },
+  {
+    _id: 'MYR',
+    sum: Decimal128("4781.12"),
+    Avg: Decimal128("4781.12")
+  },
+  {
+    _id: 'PLN',
+    sum: Decimal128("90770.78"),
+    Avg: Decimal128("5042.821111111111111111111111111111")
+  },
+  {
+    _id: 'MAD',
+    sum: Decimal128("3818.85"),
+    Avg: Decimal128("3818.85")
+  },
+  {
+    _id: 'IDR',
+    sum: Decimal128("323922.59"),
+    Avg: Decimal128("4907.918030303030303030303030303030")
+  },
+  {
+    _id: 'COP',
+    sum: Decimal128("19746.73"),
+    Avg: Decimal128("4936.6825")
+  },
+  {
+    _id: 'CZK',
+    sum: Decimal128("37156.42"),
+    Avg: Decimal128("4644.5525")
+  },
+  {
+    _id: 'NGN',
+    sum: Decimal128("24946.23"),
+    Avg: Decimal128("4157.705")
+  }
+]

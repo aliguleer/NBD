@@ -1,0 +1,210 @@
+Current Mongosh Log ID:	61898859d7eaf50a2cfa00e0
+Connecting to:		mongodb://localhost:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000
+Using MongoDB:		5.0.3
+Using Mongosh:		1.1.0
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+------
+   The server generated these startup warnings when booting:
+   2021-11-08T08:11:12.281+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+Loading file: D:/Dersler/NBD/HomeWorks/HW2/query_mr_5.js
+DeprecationWarning: Collection.mapReduce() is deprecated. Use an aggregation instead.
+See https://docs.mongodb.com/manual/core/map-reduce for details.
+[
+  {
+    _id: 'AFN',
+    value: { tolalBalance: 16755.49, avgBalance: 5585.163333333334 }
+  },
+  { _id: 'ALL', value: { tolalBalance: 3325.48, avgBalance: 3325.48 } },
+  {
+    _id: 'AMD',
+    value: { tolalBalance: 24609.33, avgBalance: 4921.866 }
+  },
+  { _id: 'ARS', value: { tolalBalance: 23242, avgBalance: 4648.4 } },
+  {
+    _id: 'BGN',
+    value: { tolalBalance: 21200.88, avgBalance: 5300.22 }
+  },
+  { _id: 'BOB', value: { tolalBalance: 5263.3, avgBalance: 5263.3 } },
+  {
+    _id: 'BRL',
+    value: { tolalBalance: 49632.020000000004, avgBalance: 4512.001818181819 }
+  },
+  { _id: 'BWP', value: { tolalBalance: 4076.29, avgBalance: 4076.29 } },
+  { _id: 'BYR', value: { tolalBalance: 5095.79, avgBalance: 5095.79 } },
+  {
+    _id: 'CAD',
+    value: { tolalBalance: 58375.6, avgBalance: 5306.872727272727 }
+  },
+  { _id: 'CDF', value: { tolalBalance: 12228.8, avgBalance: 6114.4 } },
+  {
+    _id: 'CLP',
+    value: { tolalBalance: 21008.95, avgBalance: 5252.2375 }
+  },
+  {
+    _id: 'CNY',
+    value: { tolalBalance: 470700.38000000006, avgBalance: 4954.740842105264 }
+  },
+  {
+    _id: 'COP',
+    value: { tolalBalance: 19746.73, avgBalance: 4936.6825 }
+  },
+  {
+    _id: 'CUP',
+    value: { tolalBalance: 15017.34, avgBalance: 5005.78 }
+  },
+  {
+    _id: 'CZK',
+    value: { tolalBalance: 37156.420000000006, avgBalance: 4644.552500000001 }
+  },
+  {
+    _id: 'DOP',
+    value: {
+      tolalBalance: 20674.739999999998,
+      avgBalance: 5168.6849999999995
+    }
+  },
+  { _id: 'EGP', value: { tolalBalance: 5579.3, avgBalance: 5579.3 } },
+  { _id: 'ETB', value: { tolalBalance: 5436.11, avgBalance: 5436.11 } },
+  {
+    _id: 'EUR',
+    value: { tolalBalance: 245091.46999999994, avgBalance: 4901.829399999999 }
+  },
+  { _id: 'GBP', value: { tolalBalance: 6149.19, avgBalance: 6149.19 } },
+  { _id: 'GTQ', value: { tolalBalance: 5806.3, avgBalance: 5806.3 } },
+  {
+    _id: 'HNL',
+    value: { tolalBalance: 16514.59, avgBalance: 5504.863333333334 }
+  },
+  {
+    _id: 'HRK',
+    value: { tolalBalance: 24354.82, avgBalance: 4870.964 }
+  },
+  {
+    _id: 'IDR',
+    value: { tolalBalance: 323922.59, avgBalance: 4907.918030303031 }
+  },
+  {
+    _id: 'ILS',
+    value: { tolalBalance: 16295.489999999998, avgBalance: 5431.829999999999 }
+  },
+  { _id: 'IQD', value: { tolalBalance: 4269.39, avgBalance: 4269.39 } },
+  {
+    _id: 'IRR',
+    value: { tolalBalance: 26504.24, avgBalance: 4417.373333333334 }
+  },
+  { _id: 'ISK', value: { tolalBalance: 4316.41, avgBalance: 4316.41 } },
+  {
+    _id: 'JPY',
+    value: { tolalBalance: 60944.74, avgBalance: 5078.7283333333335 }
+  },
+  {
+    _id: 'KRW',
+    value: { tolalBalance: 13379.82, avgBalance: 6689.91 }
+  },
+  { _id: 'KYD', value: { tolalBalance: 3760.89, avgBalance: 3760.89 } },
+  { _id: 'KZT', value: { tolalBalance: 3788.95, avgBalance: 3788.95 } },
+  {
+    _id: 'LYD',
+    value: { tolalBalance: 8764.99, avgBalance: 4382.495 }
+  },
+  { _id: 'MAD', value: { tolalBalance: 3818.85, avgBalance: 3818.85 } },
+  {
+    _id: 'MGA',
+    value: { tolalBalance: 14560.99, avgBalance: 4853.663333333333 }
+  },
+  { _id: 'MKD', value: { tolalBalance: 3835.05, avgBalance: 3835.05 } },
+  { _id: 'MMK', value: { tolalBalance: 4629.42, avgBalance: 4629.42 } },
+  {
+    _id: 'MNT',
+    value: { tolalBalance: 21715.61, avgBalance: 5428.9025 }
+  },
+  { _id: 'MWK', value: { tolalBalance: 3574.42, avgBalance: 3574.42 } },
+  {
+    _id: 'MXN',
+    value: { tolalBalance: 50228.99999999999, avgBalance: 5022.9 }
+  },
+  { _id: 'MYR', value: { tolalBalance: 4781.12, avgBalance: 4781.12 } },
+  {
+    _id: 'NGN',
+    value: { tolalBalance: 24946.23, avgBalance: 4157.705 }
+  },
+  { _id: 'NIO', value: { tolalBalance: 9971.28, avgBalance: 4985.64 } },
+  { _id: 'NOK', value: { tolalBalance: 4773.66, avgBalance: 4773.66 } },
+  { _id: 'NPR', value: { tolalBalance: 5792.26, avgBalance: 5792.26 } },
+  { _id: 'NZD', value: { tolalBalance: 5328.46, avgBalance: 5328.46 } },
+  {
+    _id: 'PEN',
+    value: { tolalBalance: 23227.350000000002, avgBalance: 4645.47 }
+  },
+  {
+    _id: 'PHP',
+    value: { tolalBalance: 118606.27999999998, avgBalance: 4941.928333333332 }
+  },
+  { _id: 'PKR', value: { tolalBalance: 18938, avgBalance: 4734.5 } },
+  {
+    _id: 'PLN',
+    value: { tolalBalance: 90770.77999999998, avgBalance: 5042.82111111111 }
+  },
+  { _id: 'PYG', value: { tolalBalance: 4874.69, avgBalance: 4874.69 } },
+  { _id: 'RSD', value: { tolalBalance: 4276.56, avgBalance: 4276.56 } },
+  {
+    _id: 'RUB',
+    value: { tolalBalance: 119749.15, avgBalance: 4989.547916666666 }
+  },
+  { _id: 'RWF', value: { tolalBalance: 4632.88, avgBalance: 4632.88 } },
+  {
+    _id: 'SEK',
+    value: { tolalBalance: 70840.19, avgBalance: 5060.013571428572 }
+  },
+  { _id: 'SRD', value: { tolalBalance: 5286.68, avgBalance: 5286.68 } },
+  {
+    _id: 'THB',
+    value: { tolalBalance: 23021.96, avgBalance: 4604.392 }
+  },
+  { _id: 'TJS', value: { tolalBalance: 4087.71, avgBalance: 4087.71 } },
+  {
+    _id: 'TZS',
+    value: { tolalBalance: 7052.370000000001, avgBalance: 3526.1850000000004 }
+  },
+  {
+    _id: 'UAH',
+    value: {
+      tolalBalance: 40471.840000000004,
+      avgBalance: 5058.9800000000005
+    }
+  },
+  {
+    _id: 'USD',
+    value: { tolalBalance: 80650.70000000001, avgBalance: 5040.668750000001 }
+  },
+  { _id: 'UZS', value: { tolalBalance: 3573.03, avgBalance: 3573.03 } },
+  { _id: 'VEF', value: { tolalBalance: 8333.28, avgBalance: 4166.64 } },
+  {
+    _id: 'VND',
+    value: { tolalBalance: 36160.259999999995, avgBalance: 4520.032499999999 }
+  },
+  { _id: 'VUV', value: { tolalBalance: 6418.27, avgBalance: 6418.27 } },
+  {
+    _id: 'XAF',
+    value: { tolalBalance: 14094.660000000002, avgBalance: 4698.22 }
+  },
+  {
+    _id: 'XOF',
+    value: { tolalBalance: 17882.05, avgBalance: 5960.683333333333 }
+  },
+  { _id: 'XPF', value: { tolalBalance: 4759.07, avgBalance: 4759.07 } },
+  {
+    _id: 'YER',
+    value: { tolalBalance: 13712.5, avgBalance: 4570.833333333333 }
+  },
+  {
+    _id: 'ZAR',
+    value: { tolalBalance: 11790.92, avgBalance: 3930.306666666667 }
+  },
+  { _id: 'ZMW', value: { tolalBalance: 5569.56, avgBalance: 5569.56 } },
+  { _id: 'ZWL', value: { tolalBalance: 5792.17, avgBalance: 5792.17 } }
+]
