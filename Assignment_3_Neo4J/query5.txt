@@ -1,0 +1,3 @@
+match(m:Movie)<-[:ACTED_IN]-(p:Person)
+where m.title contains "Matrix"
+ return m,p

@@ -1,0 +1,3 @@
+MATCH (m:Movie)<-[]-(p:Person) 
+where m.title="Captain America: The First Avenger"
+    return m,p

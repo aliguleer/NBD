@@ -1,0 +1,4 @@
+match(p:Person)-[rel:ACTED_IN]->(m:Movie)
+where exists((m)<-[:ACTED_IN]-(:Person {name:"Hugo Weaving"}))
+ return p
+ 
