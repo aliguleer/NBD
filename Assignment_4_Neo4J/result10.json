@@ -1,0 +1,32 @@
+﻿[
+  {
+    "a1": {
+"identity": 220,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MSN"
+      }
+    },
+    "a2": {
+"identity": 206,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "a3": {
+"identity": 267,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "GRR"
+      }
+    },
+    "price": 196.5
+  }
+]

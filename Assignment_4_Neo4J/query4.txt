@@ -1,0 +1,4 @@
+match (m:Airport)<-[:ORIGIN]-(n:Flight) 
+with m,count(n) as numberOfFlights
+return m,numberOfFlights
+order by numberOfFlights
