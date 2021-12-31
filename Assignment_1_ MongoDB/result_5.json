@@ -1,0 +1,616 @@
+Current Mongosh Log ID:	61cecc281fdd489227cd454d
+Connecting to:		mongodb://localhost:27017/nbd?directConnection=true&serverSelectionTimeoutMS=2000
+Using MongoDB:		5.0.3
+Using Mongosh:		1.1.0
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+------
+   The server generated these startup warnings when booting:
+   2021-12-30T16:56:04.972+01:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+Loading file: D:\Dersler\NBD\HomeWorks\Assigments\hm/query_5.js
+[
+  {
+    _id: ObjectId("617983fa5a5376b63df972e1"),
+    first_name: 'Brian',
+    last_name: 'Schmidt',
+    location: { city: 'Norrköping' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96947"),
+    first_name: 'Melissa',
+    last_name: 'Ferguson',
+    location: { city: 'Tseel' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df958c5"),
+    first_name: 'Beverly',
+    last_name: 'Garza',
+    location: { city: 'Xinxu' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95e8a"),
+    first_name: 'Eric',
+    last_name: 'Harvey',
+    location: { city: 'Campor' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df97149"),
+    first_name: 'Catherine',
+    last_name: 'Gordon',
+    location: { city: 'Gudang' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96966"),
+    first_name: 'Billy',
+    last_name: 'Evans',
+    location: { city: 'Rzyki' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df958ee"),
+    first_name: 'Jeremy',
+    last_name: 'Gonzalez',
+    location: { city: 'Quintães' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96be5"),
+    first_name: 'Ernest',
+    last_name: 'Bailey',
+    location: { city: 'Dehang' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96b97"),
+    first_name: 'Janet',
+    last_name: 'Perry',
+    location: { city: 'Göteborg' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df95f35"),
+    first_name: 'Billy',
+    last_name: 'Fields',
+    location: { city: 'Torrance' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96a31"),
+    first_name: 'James',
+    last_name: 'Cox',
+    location: { city: 'Olenegorsk' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95a09"),
+    first_name: 'Christina',
+    last_name: 'Gardner',
+    location: { city: 'Debre Sīna' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95c2e"),
+    first_name: 'Linda',
+    last_name: 'Gonzalez',
+    location: { city: 'Oslo' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95310"),
+    first_name: 'Christopher',
+    last_name: 'Peters',
+    location: { city: 'Bromma' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df94fab"),
+    first_name: 'Elizabeth',
+    last_name: 'Howard',
+    location: { city: 'Lingtou' }
+  },
+  {
+    _id: ObjectId("617983fa5a5376b63df97534"),
+    first_name: 'Anna',
+    last_name: 'Griffin',
+    location: { city: 'Masindi' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df968b0"),
+    first_name: 'Joe',
+    last_name: 'Reynolds',
+    location: { city: 'Francova Lhota' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df95f3d"),
+    first_name: 'Ronald',
+    last_name: 'Stevens',
+    location: { city: 'Longwantun' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df94f88"),
+    first_name: 'Ronald',
+    last_name: 'Kennedy',
+    location: { city: 'Boavista' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df959ee"),
+    first_name: 'Peter',
+    last_name: 'Ruiz',
+    location: { city: 'Şaqānis' }
+  },
+  {
+    _id: ObjectId("617983fa5a5376b63df97463"),
+    first_name: 'Russell',
+    last_name: 'Rivera',
+    location: { city: 'Gachalá' }
+  },
+  {
+    _id: ObjectId("617983fa5a5376b63df973ba"),
+    first_name: 'Clarence',
+    last_name: 'Murray',
+    location: { city: 'Mancogeh' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df95f6f"),
+    first_name: 'Marie',
+    last_name: 'Torres',
+    location: { city: 'Örgön' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df97092"),
+    first_name: 'Ruby',
+    last_name: 'Snyder',
+    location: { city: 'Calbuco' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96ce2"),
+    first_name: 'Christopher',
+    last_name: 'Andrews',
+    location: { city: 'La Palma' }
+  },
+  {
+    _id: ObjectId("617983fa5a5376b63df97324"),
+    first_name: 'Michelle',
+    last_name: 'Perez',
+    location: { city: 'Žabljak' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95afb"),
+    first_name: 'Donald',
+    last_name: 'Watson',
+    location: { city: 'Borjomi' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df950d7"),
+    first_name: 'Philip',
+    last_name: 'Crawford',
+    location: { city: 'Rabaul' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95221"),
+    first_name: 'Irene',
+    last_name: 'Watson',
+    location: { city: 'Dikson' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96fea"),
+    first_name: 'Louis',
+    last_name: 'Sullivan',
+    location: { city: 'Guangming' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96c18"),
+    first_name: 'Julia',
+    last_name: 'Lawson',
+    location: { city: 'Villa Mercedes' }
+  },
+  {
+    _id: ObjectId("617983fa5a5376b63df9740d"),
+    first_name: 'Dennis',
+    last_name: 'Cooper',
+    location: { city: 'Chian Yai' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95df1"),
+    first_name: 'Julie',
+    last_name: 'Carpenter',
+    location: { city: 'Vinsady' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df9539a"),
+    first_name: 'Ashley',
+    last_name: 'Larson',
+    location: { city: 'La Valette-du-Var' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df9705e"),
+    first_name: 'Joshua',
+    last_name: 'Mitchell',
+    location: { city: 'San Vicente' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df9589f"),
+    first_name: 'Gary',
+    last_name: 'Lawrence',
+    location: { city: 'Huage' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95281"),
+    first_name: 'Marie',
+    last_name: 'Perkins',
+    location: { city: 'Fernandópolis' }
+  },
+  {
+    _id: ObjectId("617983fa5a5376b63df97398"),
+    first_name: 'Patrick',
+    last_name: 'Mendoza',
+    location: { city: 'Butiama' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df955bb"),
+    first_name: 'Amanda',
+    last_name: 'Carr',
+    location: { city: 'Överkalix' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df9590d"),
+    first_name: 'Donna',
+    last_name: 'Sullivan',
+    location: { city: 'Talca' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df9701c"),
+    first_name: 'Ernest',
+    last_name: 'Romero',
+    location: { city: 'Dunhao' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df958fe"),
+    first_name: 'Sean',
+    last_name: 'Flores',
+    location: { city: 'San Nicolás de los Arroyos' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df9528e"),
+    first_name: 'Jean',
+    last_name: 'Hunt',
+    location: { city: 'Västerhaninge' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95819"),
+    first_name: 'Nicole',
+    last_name: 'Young',
+    location: { city: 'Victoria' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df95f20"),
+    first_name: 'Wayne',
+    last_name: 'Ford',
+    location: { city: 'Mekarsari' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df970df"),
+    first_name: 'Phillip',
+    last_name: 'Weaver',
+    location: { city: 'Mangulewa' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95026"),
+    first_name: 'Bruce',
+    last_name: 'Spencer',
+    location: { city: 'Voskresenskoye' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96673"),
+    first_name: 'Craig',
+    last_name: 'Morris',
+    location: { city: 'Battung' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df97037"),
+    first_name: 'Joe',
+    last_name: 'Tucker',
+    location: { city: 'Rozsypne' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96d5d"),
+    first_name: 'Larry',
+    last_name: 'Hamilton',
+    location: { city: 'Kosava' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95962"),
+    first_name: 'Diana',
+    last_name: 'Murray',
+    location: { city: 'Cheongsong gun' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df9633d"),
+    first_name: 'Theresa',
+    last_name: 'Cox',
+    location: { city: 'Ibicaraí' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96292"),
+    first_name: 'Mildred',
+    last_name: 'Coleman',
+    location: { city: 'Suure-Jaani' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df955a9"),
+    first_name: 'Johnny',
+    last_name: 'Butler',
+    location: { city: 'Brudzeń Duży' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96b6c"),
+    first_name: 'Elizabeth',
+    last_name: 'Moore',
+    location: { city: 'Växjö' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95dea"),
+    first_name: 'Antonio',
+    last_name: 'Ray',
+    location: { city: 'Sukamahi Satu' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96615"),
+    first_name: 'Philip',
+    last_name: 'Ramos',
+    location: { city: 'Bogorejo' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96a82"),
+    first_name: 'Shirley',
+    last_name: 'Mitchell',
+    location: { city: 'Vólos' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96eb7"),
+    first_name: 'Phyllis',
+    last_name: 'Lee',
+    location: { city: "Villeneuve-d'Ascq" }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95bf5"),
+    first_name: 'Gerald',
+    last_name: 'King',
+    location: { city: 'Sholokhove' }
+  },
+  {
+    _id: ObjectId("617983fa5a5376b63df9744d"),
+    first_name: 'Lisa',
+    last_name: 'Hansen',
+    location: { city: 'Lohong' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95d92"),
+    first_name: 'Judy',
+    last_name: 'Morales',
+    location: { city: 'Slavyansk-na-Kubani' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df95fab"),
+    first_name: 'Martha',
+    last_name: 'Peterson',
+    location: { city: 'Malitubog' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96cef"),
+    first_name: 'Timothy',
+    last_name: 'Ward',
+    location: { city: 'San Clemente' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df9707b"),
+    first_name: 'Jean',
+    last_name: 'Johnston',
+    location: { city: 'San Remigio' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96f5d"),
+    first_name: 'Todd',
+    last_name: 'Hanson',
+    location: { city: 'Columbus' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96c22"),
+    first_name: 'Scott',
+    last_name: 'Black',
+    location: { city: 'Qal‘at al Andalus' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95427"),
+    first_name: 'Todd',
+    last_name: 'Richards',
+    location: { city: 'Zaoxi' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df951a1"),
+    first_name: 'William',
+    last_name: 'Adams',
+    location: { city: 'Voskhod' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95997"),
+    first_name: 'Tina',
+    last_name: 'Stewart',
+    location: { city: 'Água de Pau' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df9520f"),
+    first_name: 'Judith',
+    last_name: 'Little',
+    location: { city: 'Pigí' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96591"),
+    first_name: 'Rose',
+    last_name: 'Rogers',
+    location: { city: 'Cáceres' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96232"),
+    first_name: 'Arthur',
+    last_name: 'Mccoy',
+    location: { city: 'Linares' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df971fd"),
+    first_name: 'Jonathan',
+    last_name: 'Williamson',
+    location: { city: 'Dongfanghong' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96ae7"),
+    first_name: 'Ronald',
+    last_name: 'Johnston',
+    location: { city: 'Ladushkin' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95550"),
+    first_name: 'Paul',
+    last_name: 'Ford',
+    location: { city: 'Pansoy' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df957ce"),
+    first_name: 'Shirley',
+    last_name: 'Elliott',
+    location: { city: 'Cipanjang' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df956b7"),
+    first_name: 'Lisa',
+    last_name: 'Jackson',
+    location: { city: 'Salekhard' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df965fa"),
+    first_name: 'Ruby',
+    last_name: 'Payne',
+    location: { city: 'Borodinskiy' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96038"),
+    first_name: 'Elizabeth',
+    last_name: 'Torres',
+    location: { city: 'Villa Concepción del Tío' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96b6a"),
+    first_name: 'Jennifer',
+    last_name: 'Morales',
+    location: { city: 'Consolación del Sur' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df951f2"),
+    first_name: 'Nicholas',
+    last_name: 'Larson',
+    location: { city: 'Cascavel' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96895"),
+    first_name: 'Michael',
+    last_name: 'Cook',
+    location: { city: 'Buga' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96701"),
+    first_name: 'Michelle',
+    last_name: 'Rodriguez',
+    location: { city: 'Santiago Nonualco' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95b97"),
+    first_name: 'Jesse',
+    last_name: 'Henderson',
+    location: { city: 'Dolulolong' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df959e5"),
+    first_name: 'Dorothy',
+    last_name: 'Reynolds',
+    location: { city: 'Bessonovka' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96fa3"),
+    first_name: 'Deborah',
+    last_name: 'Dean',
+    location: { city: 'Cileuya' }
+  },
+  {
+    _id: ObjectId("617983fa5a5376b63df972ab"),
+    first_name: 'Kelly',
+    last_name: 'Campbell',
+    location: { city: 'Namling' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96d4f"),
+    first_name: 'Roy',
+    last_name: 'Mcdonald',
+    location: { city: 'Liliongan' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95c13"),
+    first_name: 'Dennis',
+    last_name: 'Ward',
+    location: { city: 'Hiratachō' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95c2c"),
+    first_name: 'Timothy',
+    last_name: 'Rice',
+    location: { city: 'Citundun' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96d41"),
+    first_name: 'Anne',
+    last_name: 'Griffin',
+    location: { city: 'Ush-Tyube' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95c03"),
+    first_name: 'Douglas',
+    last_name: 'Kelley',
+    location: { city: 'Athens' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96bef"),
+    first_name: 'Howard',
+    last_name: 'Moreno',
+    location: { city: 'Gusong' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df963e4"),
+    first_name: 'Alan',
+    last_name: 'Stevens',
+    location: { city: 'Milići' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df95654"),
+    first_name: 'Linda',
+    last_name: 'Fisher',
+    location: { city: 'Haarlem' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df95eb9"),
+    first_name: 'Amanda',
+    last_name: 'Morris',
+    location: { city: 'La Ronge' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96c63"),
+    first_name: 'Roy',
+    last_name: 'Lane',
+    location: { city: 'San Pedro One' }
+  },
+  {
+    _id: ObjectId("617983f85a5376b63df955e2"),
+    first_name: 'Ernest',
+    last_name: 'Knight',
+    location: { city: 'Weizhou' }
+  },
+  {
+    _id: ObjectId("617983f95a5376b63df96c98"),
+    first_name: 'Diane',
+    last_name: 'Elliott',
+    location: { city: 'Hullo' }
+  },
+  ... 1738 more items
+]
