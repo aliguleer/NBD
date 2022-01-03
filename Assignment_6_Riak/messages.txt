@@ -1,0 +1,3 @@
+{"Name":"nalan","Country":"Turkey","Age":18,"isStudent":true}
+{"Name":"nalan","Country":"Poland","Age":18,"isStudent":true}
+null
