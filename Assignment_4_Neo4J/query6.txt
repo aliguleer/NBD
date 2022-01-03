@@ -3,4 +3,4 @@ WITH p, REDUCE(acc = 0, n IN [x IN NODES(p) WHERE 'Flight' IN LABELS(x)] |
   acc + [(n)<-[:ASSIGN]-(ticket) | ticket.price][0]
   ) as price
 RETURN p, price
-ORDER BY price desces nothing, I can't check all paths beyond 6 steps
+ORDER BY price desc
